@@ -1,0 +1,56 @@
+unit testing _ independent testing 
+comes check the main functionality  working are not 
+regression testing - to check each every functaionality 
+
+oops through java :
+class- blueprint of an object 
+ a class concept in java are
+     a)Fields
+     b)constructor 
+     c)methods-collections of statements which returns value upon execution.
+     d)blocks 
+     e)nested class and interface
+
+object: A entity of state and behaviour  is called object 
+ eg:  dog  it contains state and behaviour are 
+          state - name ,color, breed 
+          behaviour-barking ,fetching, tail
+
+Data encapsulation : Hiding the implementation detalis of the class from the user of the object method is called data encapsulations 
+it binds the code and data together and keeps them safe from outside interference.
+a)wrapping together of data and information in a single unit 
+
+public interface : software entities interact with each other either in a single copmputer or in a network is known public interface 
+it helps the data security .
+
+Inheritance:process of acquiring properties. In  one object inherits the properties of another object.
+it allows the reusability  code 
+
+polymorphism:it can perform single action with different  classes.
+ eg:           animal (sound()) _ Cat sounds(meow)
+                                  dog sounds(bark)
+Abstraction :Hiding data and showing thw related dtaa to the final user 
+
+constructor:similar to a method that is invoked when a  object of a class is created 
+  a)same name as class name but it as no return type 
+constructor has 2 type  there are 
+    1)default constructor 
+     2)parameterized constructor
+Default constructor :
+              Default constructor either has no parameter or if it has parameter all  the parameter values are default values .
+parameterized constructor :
+           Constructor when it acts as a specific number of parameters .
+Overloading :More than one constructor with one parameter 
+Overridding: Chlid class can give  its own implementation to a method which is already provided  by the parent class  
+String: Sequence of characters .it represents by //                      
+     EG: "Lavanya"= "l","a",......
+String manipulation :Process of handling and analysing  the string.
+       Eg:   "lavanya" + "kamani " = lavanya kamani (String concatatination )
+Exception handing in Java:
+       One of the powerful mechanism to handle the run tym errors.So that the normal flow of the application can be maintained . 
+        exception handling can be classified into five types there are
+              a) Try- Try is statement which allows define a block of the code to be tested for error while being it is executed.
+              b)Catch-Catch is statement which allows define a block of the code to be executed if an errors occurs in try block
+              c)throw-used to throw an exception
+              d)throws-Declare an exception
+              e)Finally- Checking the code in exception handled  or not  
